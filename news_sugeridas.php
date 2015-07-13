@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="titulo_news">
-                <p><a href="single.html">Lorem ipsum dolor</a></p>
+                <p><a href="single_news.php">Lorem ipsum dolor</a></p>
               </div>
           <div class="cont_descripcion_news">
                 <div class="descripcion_news">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="titulo_news">
-                <p><a href="single.html">Lorem ipsum dolor</a></p>
+                <p><a href="single_news.php">Lorem ipsum dolor</a></p>
               </div>
           <div class="cont_descripcion_news">
                 <div class="descripcion_news">

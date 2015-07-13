@@ -17,8 +17,8 @@ include("head.php");
 </div>
 
 <?php 
-include("posts.php");
-include("news.php");
+include("loop.php");
+include("news_sugeridas.php");
 include("paginador.php");
 include("footer.php");
 include("modales.php");
