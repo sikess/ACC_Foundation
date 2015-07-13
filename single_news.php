@@ -58,7 +58,6 @@ include("head.php");
 
 
 <?php 
-include("news.php");
 include("items_sugeridos.php");
  ?>
 

@@ -54,8 +54,7 @@ include("head.php");
 
 
 <?php 
-include("news.php");
-include("paginador.php");
+include("items_sugeridos.php");
  ?>
 
     <script src="js/vendor/jquery.js"></script>
