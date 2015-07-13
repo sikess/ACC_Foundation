@@ -74,7 +74,7 @@
       <div class="large-2 medium-2 columns  hide-for-small reset">
         <div id="inicio_link">
            <ul id="" class="">
-            <li><a href="index.html" class="fi-home tm"></a></li>
+            <li><a href="index.php" class="fi-home tm"></a></li>
            </ul>   
         </div>
       </div>
@@ -150,12 +150,8 @@
 </div>
 
 <div class="contenedor">
-  <div class="row">
-	    
-	<?php include("search.php") ?>
-   
-   </div>
-</div>
+
+
 
 
 
