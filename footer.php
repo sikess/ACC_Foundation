@@ -2,8 +2,8 @@
 
  ?>
 
- <div class="cont_foot lista_footer bg_rojo">
-  <div class="footer bg_rojo">
+ <div class="cont_foot lista_footer">
+  <div class="footer">
    <div class="row">
       <div class="cont_secciones_footer">
            <div class="secciones_footer contact_foot">
