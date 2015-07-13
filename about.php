@@ -55,6 +55,8 @@ include("head.php");
 
 <?php 
 include("items_sugeridos.php");
+include("footer.php");
+include("modales.php");
  ?>
 
     <script src="js/vendor/jquery.js"></script>
@@ -65,7 +67,3 @@ include("items_sugeridos.php");
   </body>
 </html>
 
-
-<?php 
-include("footer.php");
-?>

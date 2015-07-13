@@ -42,6 +42,9 @@ body {
   text-decoration: inherit;
 }
 
+
+
+
 //VARIABLES GENERALES
 @ancho_page:1000px;
 @rojo: #A32C24;
@@ -49,7 +52,12 @@ body {
 
 // MIXIN
 .bg_rojo{
-	background-color: @rojo;
+	background-color: @rojo !important;
+}
+
+
+.bg_amarillo{
+	background-color: @amarillo !important;
 }
 
 .reset{
@@ -63,6 +71,9 @@ body {
 	box-shadow: 9px 10px 5px -4px rgba(214,214,214,1);
 }
 
+
+
+
 .tm_font(@size_font){
 	font-size: @size_font;
 }
@@ -75,17 +86,17 @@ body {
 	padding: @ariiba @dere @abajo @izq;
 }
 
+
+
 .degradado_amarillo{
-
-background: rgba(249,236,0,1);
-background: -moz-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(249,236,0,1)), color-stop(100%, rgba(243,199,0,1)));
-background: -webkit-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
-background: -o-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
-background: -ms-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
-background: linear-gradient(to right, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec00', endColorstr='#f3c700', GradientType=1 );
-
+	background: rgba(249,236,0,1);
+	background: -moz-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(249,236,0,1)), color-stop(100%, rgba(243,199,0,1)));
+	background: -webkit-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
+	background: -o-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
+	background: -ms-linear-gradient(left, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
+	background: linear-gradient(to right, rgba(249,236,0,1) 0%, rgba(243,199,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec00', endColorstr='#f3c700', GradientType=1 );
 }
 
 .div_gral(@alt,@anch,@pad,@marg){
@@ -137,11 +148,56 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ec00', end
 	clear: both;
 }
 
-	
+	// FIN MIXIN
+
+// F PERSONALIZADO
+.mi_tb li{
+	color: @rojo !important;
+}
+
+.mi_tb ul li a{
+	color: @rojo !important;
+
+}
+
+.mi_tb a{
+	color: @rojo !important;
+
+}
+
+.mi_tb ul li a:hover{
+	color: @amarillo !important;
+	background-color: @rojo !important;
+vertical-align: middle !important;
+}
+
+.orbit-bullets li{
+	list-style-type: none;
+	width: 15px;
+	height:15px;
+	background-image: url("../img/bot_nav_reposo.png");
+	background-size:15px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.orbit-bullets .active{
+	list-style-type: none;
+	width: 15px;
+	height:15px;
+	background-image: url("../img/bot_nav_activo.png")!important;
+	background-size:15px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+// FIN F PERSONALIZADO
+
+
 /*CABECERA*/
 
 #con_menu_top{/*Contenedor del menu top*/
-	height:50px;
+	// height:50px;
 	background-color:@rojo;
 	// width: 100%;
 

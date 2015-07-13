@@ -2,7 +2,7 @@
 <div class="contenedor"><!-- CONTENEDOR PARA NAVI -->
   <div class="separador-contenedor"><!--Este div sirve para contener elementos con padding top bottom-->
     <div class="seccion">
-      <div class="cont_paginador">
+      <div class="cont_paginador  hide-for-small hide-for-medium">
        <div class="paginador">
          <ul>
            <li class="prim_ult"><a href="">Primero</a></li>

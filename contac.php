@@ -5,7 +5,7 @@ include("head.php");
   <div class="row">
     <div class="medium-4 small-4 columns reset">
       <div class="etiqueta">
-         NOSOTROS
+         CONTACTO
        </div>
     </div>   
    </div>
@@ -115,6 +115,8 @@ include("head.php");
 
 <?php 
 include("items_sugeridos.php");
+include("footer.php");
+include("modales.php");
  ?>
 
     <script src="js/vendor/jquery.js"></script>
@@ -126,6 +128,3 @@ include("items_sugeridos.php");
 </html>
 
 
-<?php 
-include("footer.php");
-?>

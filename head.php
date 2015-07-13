@@ -15,7 +15,7 @@
 
 <div id="con_menu_top">
 
-    <div class="row ">
+    <div class="row hide-for-small">
         <div class="cont_secciones_top">
 
           <div class="small-6 large-6 columns hide-for-small lista_izq_top padding_top_left">
@@ -27,7 +27,7 @@
 
        <!--    <div class="small-4 large-4 columns"></div> -->
           
-          <div class="small-6 large-6 columns lista_izq_top float_right padding_top_right">
+          <div class="small-12 medium-6 large-6 columns lista_izq_top float_right padding_top_right">
              <ul class="icon_format">
                <li ><a class="fi-social-twitter icon_format" href="#"></a></li>
                <li ><a class="fi-social-facebook icon_format" href="#"></a></li>
@@ -78,33 +78,34 @@
            </ul>   
         </div>
       </div>
-      <div class="large-10 medium-10 columns">
+      <div class="large-10 medium-10 columns reset">
 
 
-<div class="off-canvas-wrap show-for-small-only" data-offcanvas>
-  <div class="inner-wrap">
+<div class="off-canvas-wrap show-for-small-only" >
 
-    <a class="left-off-canvas-toggle" href="#" >Menu</a>
+  <nav class="top-bar bg_amarillo" data-topbar role="navigation">
+  <ul class="title-area bg_amarillo mi_tb">
+    <li class="name">
+      <h1><a href="index.php"><i class="fi-home tm"> </i></a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar  bg_amarillo mi_tb"><a href="#"><i class="fi-list tm"> </i></a></li>
+  </ul>
 
-    <!-- Off Canvas Menu -->
-    <aside class="left-off-canvas-menu">
-        <!-- whatever you want goes here -->
-        asasas
-     <aside class="left-off-canvas-menu">
-      <section class="main-section">
-      <!-- content goes here -->
-      <hr><br>sdadasdasdasda
-      </section>
-    </aside>
+  <section class="top-bar-section bg_amarillo mi_tb">
+    <!-- Right Nav Section -->
+    <ul class="right bg_rojo mi_tb">
+      <li class="bg_amarillo mi_tb"><a href="about.php"><i class="fi-torsos-all tm"> </i>NOSOTRTOS</a></li>
+        <li class="bg_amarillo mi_tb"><a href="contac.php"><i class="fi-address-book tm"> </i>CONTACTO</a></li>
+      
+    </ul>
 
-
-    </aside>
-
- 
-  <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
-
-  </div>
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li class="bg_amarillo mi_tb"><a href="#"><i class="fi-download tm"> </i>DESCARGAS</a></li>
+    </ul>
+  </section>
+</nav>
 </div>
 
 
