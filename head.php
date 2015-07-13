@@ -112,7 +112,7 @@
            <div class="menu_principal large-12 columns hide-for-small">
               <ul id="" class="large-12 medium-12 small-12 columns">
                 <li ><a href="about.php">NOSOTROS</a></li>
-                <li ><a href="contacto.html" >CONTACTO</a></li>
+                <li ><a href="contac.php" >CONTACTO</a></li>
                 <li ><a href="#" >DESCARGAS</a></li>
               </ul>
           </div>
