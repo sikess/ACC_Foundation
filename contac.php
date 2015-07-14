@@ -14,10 +14,10 @@ include("head.php");
 
 <div class="contenedor">
   <div class="catalogo_cont"><!--Catalogo_cont-->
-	<hr>
+
 
    <div class="row">
-
+  <hr>
       <div class="large-6 medium-6 small-6 columns format_text_news ">
      	<p>ESCRÍBENOS</p>   
      

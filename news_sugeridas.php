@@ -2,7 +2,7 @@
 
 <div class="contenedor"><!-- HEAD NOTICIAS -->
   <div class="separador-contenedor"><!--Este div sirve para contener elementos con padding top bottom-->
-    <div class="seccion">
+    <div class="seccion row">
       <div class="etiqueta">
         NOTICIAS
       </div>

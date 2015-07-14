@@ -5,7 +5,7 @@
 
 <div class="contenedor"><!-- HEAD NOTICIAS -->
   <div class="separador-contenedor"><!--Este div sirve para contener elementos con padding top bottom-->
-    <div class="seccion">
+    <div class="seccion row">
       <div class="etiqueta">
         SUGERIDOS
       </div>
@@ -17,9 +17,9 @@
 <div class="conternedor">
   <div class="row">
     
-  <div class="item_content">
+  <div class="item_content large-4 medium-12 columns">
 
-      <div class="items">
+      <div class="items large-12 medium-12 small-12 columns reset">
         <div class="fondo_item">
             <div class="imagen">
             <a href="#" data-reveal-id="myModal1"><img src="img/productos/01_thum.png" alt=""></a> 
@@ -34,9 +34,9 @@
     </div>
 
 
-    <div class="item_content">
+  <div class="item_content large-4 medium-12 columns">
 
-      <div class="items">
+      <div class="items large-12 medium-12 small-12 columns reset">
         <div class="fondo_item">
             <div class="imagen">
             <a href="#" data-reveal-id="myModal2"><img src="img/productos/02_thum.png" alt=""></a> 
@@ -51,9 +51,9 @@
     </div>
 
 
-    <div class="item_content">
+  <div class="item_content large-4 medium-12 columns">
 
-      <div class="items">
+      <div class="items large-12 medium-12 small-12 columns reset">
         <div class="fondo_item">
             <div class="imagen">
             <a href="#" data-reveal-id="myModal3"><img src="img/productos/03_thum.png" alt=""></a> 
